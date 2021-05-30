@@ -1,0 +1,22 @@
+/* Fonts */
+
+@import 'fonts.css';
+
+/* Blocks */
+
+@import 'blocks/box-sizing.css';
+@import 'blocks/visually-hidden.css';
+@import 'blocks/page.css';
+
+/* Globals */
+
+:root {
+  --font-base: '';
+  --font-primary: '';
+
+  --color-main: #000000;
+  --color-primary: '';
+  --color-background: #ffffff;
+
+  --gap: '';
+}

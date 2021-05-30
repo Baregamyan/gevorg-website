@@ -1,0 +1,18 @@
+
+/* Page */
+
+.page,
+.page__body {
+  height: 100%;
+}
+
+.page {
+  color: var(--color-main);
+  font-weight: 400;
+  font-family: var(--font-base);
+  background-color: var(--color-background);
+}
+
+.page__body {
+  margin: 0 auto;
+}

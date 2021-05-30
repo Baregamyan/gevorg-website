@@ -1,0 +1,29 @@
+doctype html
+html.page.page--no-js(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(name="description" content=site.description)
+    meta(name="keywords" content=site.keywords)
+
+    title #{title}
+
+    include /open-graph.pug
+    include /icons.pug
+
+    script(type="module")
+      | document.documentElement.classList.remove('page--no-js');
+
+    link(rel="preload" href="#nowhere" as="font" crossorigin="anonymous")
+    link(rel="preload" href="#nowhere" as="font" crossorigin="anonymous")
+
+    link(rel="stylesheet" href="/styles/styles.css")
+  body.page__body
+    svg(style="display:none")
+      include /sprite.svg
+
+    include /header.pug
+
+    main !{content}
+
+    include /footer.pug
