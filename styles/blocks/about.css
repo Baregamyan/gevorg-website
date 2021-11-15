@@ -1,0 +1,19 @@
+.about {
+  margin-bottom: 50px;
+}
+
+.about__text {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  text-align: center;
+}
+
+.about__image-wrapper {
+  overflow: hidden;
+}
+
+.about__image {
+  max-height: 750px;
+  object-position: center;
+}

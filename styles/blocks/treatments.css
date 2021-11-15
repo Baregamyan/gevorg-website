@@ -1,0 +1,20 @@
+.treatments {
+  margin-bottom: 30px;
+}
+
+.treatments__treatment {
+  margin-bottom: 20px;
+}
+
+.treatments__image {
+  width: 100%;
+  height: 100%;
+}
+
+.treatments__description-wrapper {
+  margin-top: 0;
+  padding: 15px;
+  background-color: var(--color-gray);
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}

@@ -1,0 +1,28 @@
+.socials {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.socials__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.socials__item {
+  margin-right: 10px;
+}
+
+.socials__item:last-of-type {
+  margin-right: 0;
+}
+
+.socials__svg {
+  width: 35px;
+  height: 35px;
+  fill: var(--color-main);
+}
+
+.socials__svg--light {
+  fill: var(--color-gray);
+}
