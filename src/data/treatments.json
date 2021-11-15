@@ -1,0 +1,42 @@
+{
+  "title": "Лечение",
+  "list": [
+    {
+      "title": "Имплантация",
+      "description": "Sint incididunt deserunt labore adipisicing voluptate proident reprehenderit ex ex in nulla cillum consectetur deserunt. Ea do reprehenderit dolor ipsum qui ex reprehenderit ipsum excepteur quis velit. Consectetur cillum magna ipsum voluptate qui irure.",
+      "image": {
+        "name": "implants",
+        "width": "648",
+        "height": "432",
+        "alt": "Имплантация — Врач Геворг Саакян"
+      }
+    }, {
+      "title": "Имплантация",
+      "description": "Sint incididunt deserunt labore adipisicing voluptate proident reprehenderit ex ex in nulla cillum consectetur deserunt. Ea do reprehenderit dolor ipsum qui ex reprehenderit ipsum excepteur quis velit. Consectetur cillum magna ipsum voluptate qui irure.",
+      "image": {
+        "name": "implants",
+        "width": "648",
+        "height": "432",
+        "alt": "Имплантация — Врач Геворг Саакян"
+      }
+    }, {
+      "title": "Имплантация",
+      "description": "Sint incididunt deserunt labore adipisicing voluptate proident reprehenderit ex ex in nulla cillum consectetur deserunt. Ea do reprehenderit dolor ipsum qui ex reprehenderit ipsum excepteur quis velit. Consectetur cillum magna ipsum voluptate qui irure.",
+      "image": {
+        "name": "implants",
+        "width": "648",
+        "height": "432",
+        "alt": "Имплантация — Врач Геворг Саакян"
+      }
+    }, {
+      "title": "Имплантация",
+      "description": "Sint incididunt deserunt labore adipisicing voluptate proident reprehenderit ex ex in nulla cillum consectetur deserunt. Ea do reprehenderit dolor ipsum qui ex reprehenderit ipsum excepteur quis velit. Consectetur cillum magna ipsum voluptate qui irure.",
+      "image": {
+        "name": "implants",
+        "width": "648",
+        "height": "432",
+        "alt": "Имплантация — Врач Геворг Саакян"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+mixin logo(isLight)
+  .logo.row(class=`${isLight ? `logo--light` : `` }`)
+    .logo__wrapper.col.d-flex.justify-content-center
+      svg.logo__svg(class=`${isLight ? `logo__svg--light` : ``}` viewBox=logo.svg.viewbox width=logo.svg.width height=logo.svg.height)
+          use(xlink:href=`#${logo.svg.name}`)
+
+
+mixin socials(isLight)
+  .socials.row
+    ul.socials__list.d-flex.justify-content-center
+      each social in socials.list
+        li.socials__item
+          a.socials__link(href=social.href arial-label=social.text)
+            svg.socials__svg(class=isLight ? `socials__svg--light` : `` width="32" height="32" viewBox="0 0 32 32")
+              use(xlink:href=`#${social.id}`)

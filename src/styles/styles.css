@@ -1,3 +1,8 @@
+/* Vendor */
+
+@import 'vendor/bootstrap-grid.css';
+@import 'vendor/hamburgers.css';
+
 /* Fonts */
 
 @import 'fonts.css';
@@ -7,16 +12,32 @@
 @import 'blocks/box-sizing.css';
 @import 'blocks/visually-hidden.css';
 @import 'blocks/page.css';
+@import 'blocks/title.css';
+@import 'blocks/logo.css';
+@import 'blocks/image.css';
+@import 'blocks/socials.css';
+@import 'blocks/header.css';
+@import 'blocks/footer.css';
+@import 'blocks/intro.css';
+@import 'blocks/about.css';
+@import 'blocks/statistics.css';
+@import 'blocks/treatments.css';
 
 /* Globals */
 
 :root {
-  --font-base: '';
-  --font-primary: '';
+  --font-base: 'Montserrat', 'Helvetica', sans-serif;
+  --font-primary: 'Montserrat', 'Helvetica', sans-serif;
+  --font-size: 14px;
+  --font-size-title: 20px;
+  --letter-spacing: 1px;
+  --line-height: 1.5;
 
-  --color-main: #000000;
+  --color-main: #1d1d1b;
   --color-primary: '';
+  --color-gray: #f0f0f0;
   --color-background: #ffffff;
 
-  --gap: '';
+  --transition-main: 0.3s;
+  --transition-image: 1s;
 }

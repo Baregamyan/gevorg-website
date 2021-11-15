@@ -1,0 +1,21 @@
+{
+  "list": [
+    {
+      "href": "#",
+      "text": "Инстаграм",
+      "id": "instagram"
+    }, {
+      "href": "#",
+      "text": "Телеграм",
+      "id": "telegram"
+    }, {
+      "href": "#",
+      "text": "Ватсап",
+      "id": "whatsapp"
+    }, {
+      "href": "#",
+      "text": "Вконтакте",
+      "id": "vk"
+    }
+  ]
+}

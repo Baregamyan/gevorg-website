@@ -1,0 +1,17 @@
+section.container.treatments
+  .row
+    .col
+      h2.title.treatments__title #{treatments.title}
+  .row.justify-content-between
+    each treatment in treatments.list
+      article.col-12.col-lg-5.d-flex.treatments__treatment
+        .row.flex-column
+          .col.treatment__image-wrapper
+            img.treatments__image(src=`images/${treatment.image.name}.jpg` width=treatment.image.width height=treatment.image.height alt=treatment.image.alt)
+          .col
+            .treatments__description-wrapper
+              h2.treatments__title #{treatment.title}
+              p.treatments__description #{treatment.description}
+
+
+

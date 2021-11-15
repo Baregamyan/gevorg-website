@@ -1,0 +1,42 @@
+{
+  "title": "Статистика",
+  "list": [
+    {
+      "title": "Вылеченых пациентов",
+      "number": "500+",
+      "icon": {
+        "width": "20",
+        "height": "20",
+        "id": "heart",
+        "viewbox": "0 0 89 78"
+      }
+    }, {
+      "title": "Лет&nbspопыта",
+      "number": "20+",
+      "icon": {
+        "width": "20",
+        "height": "20",
+        "id": "hospital",
+        "viewbox": "0 0 93 93"
+      }
+    }, {
+      "title": "Научных публикаций",
+      "number": "11",
+      "icon": {
+        "width": "20",
+        "height": "20",
+        "id": "research",
+        "viewbox": "0 0 80 99"
+      }
+    }, {
+      "title": "Научных публикаций",
+      "number": "11",
+      "icon": {
+        "width": "20",
+        "height": "20",
+        "id": "research",
+        "viewbox": "0 0 80 99"
+      }
+    }
+  ]
+}

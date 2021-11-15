@@ -1,2 +1,8 @@
-footer.footer 
-  h2.title.footer__title #{footer.title}
+include mixin
+
+footer.footer
+  .container
+    .row
+      h2.title.footer__title.visually-hidden #{footer.title}
+      +logo(true)
+      +socials(true)

@@ -1,0 +1,9 @@
+section.about.container.flex-column#about
+  .row.flex-column
+    .about__description.col
+      h2.title #{about.title}
+      p.about__text #{about.text}
+    .col
+      .about__image-wrapper.image
+        img.about__image.image__img(src=`images/${about.image.name}.jpg` width=about.image.width height=about.image.height alt=about.image.alt)
+

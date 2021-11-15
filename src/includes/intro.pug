@@ -1,0 +1,23 @@
+include /mixin.pug
+
+section.intro
+  .intro__wrapper.container
+    +logo(false)
+    +socials(false)
+    //- .row.justify-content-center
+      //- .intro__logo-wrapper.col.d-flex.justify-content-center
+      //-   svg.logo.intro__logo(viewBox="0 0 321 106" width=intro.logo.width height=intro.logo.height)
+      //-     use(xlink:href=`#${intro.logo.name}`)
+        //- img.logo.intro__logo(src=`images/${intro.logo.name}.svg`, alt=intro.logo.alt)
+    //- .row.jusify-content-center
+    //-   .col
+    //-     ul.intro__socials.d-flex.justify-content-center
+    //-       each social in intro.socials
+    //-         li.intro__socials-item
+    //-           a.intro__socials-link(href=social.href arial-label=social.text)
+    //-             svg.intro__socials-svg(width="32" height="32" viewBox="0 0 32 32")
+    //-               use(xlink:href=`#${social.id}`)
+  //- .row
+  //-   .col.intro__image-wrapper
+  //-     img.intro__image(src=`images/${intro.image.name}.jpg` width=intro.image.width height=intro.image.heigth alt=intro.image.alt)
+

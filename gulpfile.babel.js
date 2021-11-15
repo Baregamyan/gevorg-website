@@ -65,6 +65,9 @@ export const images = () => src('dist/images/**/*')
 
 export const sprite = () => {
   const config = {
+    svg: {
+      namespaceClassnames: false,
+    },
     mode: {
       stack: {
         sprite: '../sprite.svg',
@@ -77,8 +80,10 @@ export const sprite = () => {
       run: function($) {
         $('[fill]').removeAttr('fill');
         $('[style]').removeAttr('style');
-        $('[stroke]').removeAttr('stroke');
         $('[viewbox]').removeAttr('viewbox');
+        $('[stroke]').removeAttr('stroke');
+        $('[stroke-width]').removeAttr('stroke-width');
+        $('[stroke-linecap]').removeAttr('stroke-linecap');
       },
     }))
     .pipe(svgmin())

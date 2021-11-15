@@ -1,4 +1,3 @@
-
 /* Page */
 
 .page,
@@ -9,7 +8,10 @@
 .page {
   color: var(--color-main);
   font-weight: 400;
+  font-size: var(--font-size);
   font-family: var(--font-base);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
   background-color: var(--color-background);
 }
 
