@@ -60,7 +60,9 @@
 .header__nav-list {
   max-height: 0;
   margin: 0;
+  padding: 0;
   overflow: hidden;
+  list-style: none;
   visibility: hidden;
   transition: var(--transition-main);
 }
@@ -68,11 +70,6 @@
 .header__nav-list--opened {
   overflow: visible;
   visibility: visible;
-}
-
-.header__nav-list {
-  padding: 0;
-  list-style: none;
 }
 
 .header__nav-item {

@@ -1,0 +1,49 @@
+.regalia {
+  margin-bottom: var(--gap-bottom);
+}
+
+.regalia__wrapper {
+  padding: 30px;
+  background-color: var(--color-main);
+  border-radius: 30px;
+}
+
+.regalia__item {
+  cursor: pointer;
+}
+
+.regalia__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.regalia__name {
+  margin: 0;
+  margin-bottom: 15px;
+  color: var(--color-gray);
+  text-align: center;
+}
+
+.regalia__image {
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  margin-bottom: 15px;
+}
+
+.regalia__text {
+  margin: 0;
+  color: var(--color-gray);
+  text-align: center;
+}
+
+.regalia__text--opened {
+  margin-bottom: 20px !important;
+  font-size: 16px !important;
+}
+
+.regalia__pagination span {
+  --swiper-pagination-color: var(--color-gray);
+  --swiper-pagination-bullet-inactive-color: var(--color-gray);
+}

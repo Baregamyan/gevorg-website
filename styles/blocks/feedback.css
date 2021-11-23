@@ -1,0 +1,42 @@
+.feedback {
+  margin-bottom: 30px;
+}
+
+.feedback__wrapper {
+  padding-bottom: 15px;
+}
+
+.feedback__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.feedback__item-wrapper {
+  padding: 30px;
+  background-color: var(--color-gray);
+  border-radius: 30px;
+}
+
+.feedback__title {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.feedback__text {
+  margin: 0;
+  font-style: italic;
+}
+
+.feedback__avatar {
+  width: 20%;
+  min-width: 100px;
+  height: 20%;
+  min-height: 100px;
+  margin-bottom: 15px;
+  border-radius: 60px;
+}
+
+.feedback__pagination {
+  bottom: 0 !important;
+}

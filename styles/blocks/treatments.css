@@ -1,5 +1,5 @@
 .treatments {
-  margin-bottom: 30px;
+  margin-bottom: var(--gap-bottom);
 }
 
 .treatments__treatment {

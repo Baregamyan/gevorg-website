@@ -1,4 +1,4 @@
 .footer {
-  padding-bottom: 30px;
+  padding-bottom: var(--gap-bottom);
   background-color: var(--color-main);
 }

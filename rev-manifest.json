@@ -1,8 +1,20 @@
 {
+  "fonts/lg.svg": "fonts/lg-db9f453375.svg",
+  "fonts/lg.ttf": "fonts/lg-13e892a28d.ttf",
+  "fonts/lg.woff": "fonts/lg-ba38ec746a.woff",
+  "fonts/lg.woff2": "fonts/lg-6d51beed3e.woff2",
   "fonts/montserrat-700.woff": "fonts/montserrat-700-4830c39251.woff",
   "fonts/montserrat-700.woff2": "fonts/montserrat-700-28a81b3a70.woff2",
   "fonts/montserrat-regular.woff": "fonts/montserrat-regular-9f56e38e5a.woff",
   "fonts/montserrat-regular.woff2": "fonts/montserrat-regular-c7832852fd.woff2",
+  "images/arrow.png": "images/arrow-7e97409575.png",
+  "images/arrow.webp": "images/arrow-7fbc5af648.webp",
+  "images/compare/1-new.jpg": "images/compare/1-new-94ee3247f7.jpg",
+  "images/compare/1-new.webp": "images/compare/1-new-dd5f529375.webp",
+  "images/compare/1-old.jpg": "images/compare/1-old-892454177e.jpg",
+  "images/compare/1-old.webp": "images/compare/1-old-d66747c6c7.webp",
+  "images/feedback/arsen.jpg": "images/feedback/arsen-8102664458.jpg",
+  "images/feedback/arsen.webp": "images/feedback/arsen-bf51aa661f.webp",
   "images/gevorg-about-old.jpg": "images/gevorg-about-old-52324a016e.jpg",
   "images/gevorg-about-old.webp": "images/gevorg-about-old-5076836568.webp",
   "images/gevorg-about.jpg": "images/gevorg-about-da6cec2d6e.jpg",
@@ -17,6 +29,8 @@
   "images/logo-full-black.webp": "images/logo-full-black-792fad4805.webp",
   "images/logo.png": "images/logo-dbab78b06e.png",
   "images/logo.webp": "images/logo-85b5e9ac56.webp",
-  "scripts/scripts.js": "scripts/scripts-e7b96f34fb.js",
-  "styles/styles.css": "styles/styles-e837399b60.css"
+  "images/regalia/1.jpg": "images/regalia/1-bba51ee674.jpg",
+  "images/regalia/1.webp": "images/regalia/1-4e33c10867.webp",
+  "scripts/scripts.js": "scripts/scripts-98a60df0dd.js",
+  "styles/styles.css": "styles/styles-34efb4aad1.css"
 }

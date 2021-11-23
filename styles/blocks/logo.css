@@ -12,34 +12,7 @@
   fill: var(--color-main);
 }
 
-.logo__line {
-  fill: var(--color-main);
-  stroke: var(--color-main);
-  stroke-width: 3;
-  stroke-linecap: round;
-}
-
 .logo--light svg {
   fill: var(--color-gray);
 }
 
-.logo--light svg path.logo__line {
-  fill: var(--color-gray);
-  stroke: var(--color-gray) !important;
-}
-
-
-.logo--light .logo__svg .logo__line {
-  fill: var(--color-main);
-  stroke: var(--color-main);
-}
-
-.logo--light .logo__svg path.line {
-  fill: var(--logo-gray);
-  stroke: var(--logo-gray);
-}
-
-svg.logo__svg--light path.logo__line {
-  fill: var(--logo-gray);
-  stroke: var(--logo-gray);
-}
