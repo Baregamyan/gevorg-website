@@ -6,8 +6,8 @@
   font-style: normal;
   font-display: swap;
   src:
-    url('/fonts/montserrat-regular.woff2') format('woff2'),
-    url('/fonts/montserrat-regular.woff') format('woff');
+    url('/fonts/montserrat-regular-c7832852fd.woff2') format('woff2'),
+    url('/fonts/montserrat-regular-9f56e38e5a.woff') format('woff');
 }
 
 
@@ -17,6 +17,6 @@
   font-style: normal;
   font-display: swap;
   src:
-    url('/fonts/montserrat-700.woff2') format('woff2'),
-    url('/fonts/montserrat-700.woff') format('woff');
+    url('/fonts/montserrat-700-28a81b3a70.woff2') format('woff2'),
+    url('/fonts/montserrat-700-4830c39251.woff') format('woff');
 }
