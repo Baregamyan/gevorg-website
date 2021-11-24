@@ -24,11 +24,11 @@
 .compare__image--before {
   z-index: 10;
   width: 50%;
-  background-image: url('/images/compare/1-old-892454177e.jpg');
+  background-image: url('../../images/compare/1-old-892454177e.jpg');
 }
 
 .compare__image--after {
-  background-image: url('/images/compare/1-new-94ee3247f7.jpg');
+  background-image: url('../../images/compare/1-new-94ee3247f7.jpg');
 }
 
 .compare__line {
