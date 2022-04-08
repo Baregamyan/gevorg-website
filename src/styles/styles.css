@@ -2,6 +2,9 @@
 
 @import 'vendor/bootstrap-grid.css';
 @import 'vendor/hamburgers.css';
+@import 'vendor/swiper-bundle.css';
+@import 'vendor/lightgallery.css';
+@import 'vendor/BeerSlider.css';
 
 /* Fonts */
 
@@ -22,6 +25,10 @@
 @import 'blocks/about.css';
 @import 'blocks/statistics.css';
 @import 'blocks/treatments.css';
+@import 'blocks/regalia.css';
+@import 'blocks/feedback.css';
+@import 'blocks/compare.css';
+@import 'blocks/faq.css';
 
 /* Globals */
 
@@ -38,6 +45,12 @@
   --color-gray: #f0f0f0;
   --color-background: #ffffff;
 
+  --gap-bottom: 30px;
+
   --transition-main: 0.3s;
   --transition-image: 1s;
+
+  --swiper-pagination-color: var(--color-main);
+  --swiper-navigation-color: var(--color-main);
+  --swiper-navigation-size: 30px;
 }

@@ -3,6 +3,7 @@ module.exports = function(config) {
   config.addPassthroughCopy('src/fonts/');
   config.addPassthroughCopy('src/scripts/');
   config.addPassthroughCopy('src/images/**/*.{jpg,gif,png}');
+  config.addPassthroughCopy('src/videos/**/*.{mp4,mv}');
   return {
     dir: {
       input: "src",

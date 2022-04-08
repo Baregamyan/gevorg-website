@@ -1,0 +1,11 @@
+section#feedback.container.feedback
+  h2.title.feedback__title #{feedback.title}
+  .swiper.feedback__wrapper
+    ul.swiper-wrapper.feedback__list
+      each item in feedback.list
+        li.swiper-slide.feedback__item
+          .feedback__item-wrapper.d-flex.flex-column.justify-content-center.align-items-center
+            h3.feedback__title #{item.name}
+            img.feedback__avatar.order-first(src=`images/feedback/${item.avatar.name}.jpg` width=item.avatar.width height=item.avatar.height alt=item.avatar.alt)
+            p.feedback__text «#{item.text}»
+    .swiper-pagination.feedback__pagination

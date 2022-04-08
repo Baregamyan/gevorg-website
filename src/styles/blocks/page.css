@@ -10,8 +10,8 @@
   font-weight: 400;
   font-size: var(--font-size);
   font-family: var(--font-base);
-  letter-spacing: var(--letter-spacing);
   line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
   background-color: var(--color-background);
 }
 

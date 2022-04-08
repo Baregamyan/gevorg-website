@@ -1,0 +1,77 @@
+.compare {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.compare__slider {
+  display: flex;
+}
+
+.compare__subtitle {
+  order: 1;
+  text-align: center;
+}
+
+.compare__details-list {
+  display: none;
+  order: 4;
+  margin: 0;
+}
+
+.compare__term {
+  font-weight: 800;
+}
+
+.compare__definition {
+  margin-left: 0;
+}
+
+.compare__details-wrapper {
+  margin-bottom: 10px;
+}
+
+.compare__done-list {
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+}
+
+.compare__picture {
+  order: 1;
+  margin-bottom: 30px;
+}
+
+.compare__image {
+  width: 100%;
+  height: 100%;
+}
+
+.compare__pagination span {
+  --swiper-pagination-color: var(--color-gray);
+  --swiper-pagination-bullet-inactive-color: var(--color-gray);
+}
+
+.compare__navigations {
+  position: static;
+  order: 3;
+  min-width: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.compare__navigation {
+  position: static;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  color: var(--color-gray);
+  background-color: var(--color-main);
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 6px transparent;
+}
+
+.compare__navigation::after {
+  font-weight: 900;
+  font-size: 22px;
+}

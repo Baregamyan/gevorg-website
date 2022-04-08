@@ -9,7 +9,8 @@
     "stylelint": "stylelint \"src/styles/**/*.css\"",
     "eslint": "eslint src/**/*.js",
     "test": "npm run stylelint && npm run eslint && gulp html",
-    "build": "gulp clean && gulp sprite && eleventy && gulp build && npm run test"
+    "ghDeploy": "npm run build && gh-pages -d dist",
+    "build": "gulp clean && gulp sprite && eleventy && gulp build"
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +23,7 @@
     "autoprefixer": "^10.2.4",
     "del": "^6.0.0",
     "eslint": "^7.26.0",
+    "gh-pages": "^3.2.3",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-better-rollup": "^4.0.1",
@@ -51,8 +53,7 @@
     "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
-    "bootstrap": "^5.1.3",
-    "hamburgers": "^1.1.3",
-    "slideout": "^1.0.1"
+    "lightgallery": "^2.3.0",
+    "nouislider": "^15.5.0"
   }
 }

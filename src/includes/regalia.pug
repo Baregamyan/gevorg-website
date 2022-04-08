@@ -1,0 +1,20 @@
+section#regalia.container.regalia
+  h2.title.regalia__title #{regalia.title}
+  .swiper.regalia__wrapper
+    ul.swiper-wrapper.regalia__list
+      each item in regalia.list
+        - let {image, text, name, location, place} = item;
+        - let {number, width, height} = image;
+        - let subHtml = `<h3 class="title regalia__title">${name}</h3><p class="regalia__year">${location}</p>`;
+
+        li.swiper-slide.regalia__item(data-src=`images/regalia/gevorg-saakyan-cerificate-${number}.jpg` data-sub-html=subHtml)
+          .regalia__item-wrapper.d-flex.flex-column.justify-content-center.align-items-center
+            h3.regalia__name «#{name}»
+            img.regalia__image.order-first(
+              src=`images/regalia/gevorg-saakyan-cerificate-${number}.jpg`
+              width=width
+              height=height
+              alt=`Сертификат Геворга Саакян ${name}, ${place} ${location}`
+            )
+    .swiper-pagination.regalia__pagination
+

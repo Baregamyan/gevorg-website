@@ -1,0 +1,12 @@
+section.container.faq
+  h2.title.faq__title #{faq.title}
+  dl.faq__list.row.d-flex.flex-column.justify-center.align-items
+    each question in faq.questions
+      .faq__question-wrapper.col.d-flex.flex-column
+        dt.faq__question.faq__question--opened(data-expanded=true aria-expanded=true) #{question.title}
+        dd.faq__answer-wrapper
+          //- button.faq__answer-show-button #{faq.button}
+          p.faq__answer-text #{question.answer}
+          //- video(src="/videos/faq.mp4" type="video/mp4" width="300" controls)
+
+

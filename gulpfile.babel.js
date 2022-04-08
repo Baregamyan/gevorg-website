@@ -24,11 +24,11 @@ import htmlValidator from 'gulp-html';
   Tasks
 */
 export const revision = () => src([
-  'dist/fonts/*.woff2',
-  'dist/fonts/*.woff',
+  'dist/fonts/*',
   'dist/images/**/*.{svg,png,jpg,webp}',
+  'dist/videos/**/*.{mp4}',
   'dist/styles/styles.css',
-  'dist/scripts/scripts.js',
+  'dist/scripts/index.js',
 ], {
   base: 'dist',
 })
@@ -38,11 +38,22 @@ export const revision = () => src([
   .pipe(rev.manifest())
   .pipe(dest('dist/'));
 
+// export const rewrite = ({folder, fileName, ext}) => src(`dist/${folder === '' ? '' : `${folder}/`}${fileName}.${ext}`)
+//   .pipe(
+//     revRewrite(
+//       Object.create(readFileSync('dist/rev-manifest.json'))
+//     )
+//   )
+//   .pipe(dest(`dist/${folder}`));
+
+
 export const rewrite = () => {
   const manifest = readFileSync('dist/rev-manifest.json');
-  return src('dist/*.html')
-    .pipe(revRewrite({ manifest }))
-    .pipe(dest('dist/'));
+  return src([
+    'dist/**/*.{html,css,js}',
+  ])
+    .pipe(revRewrite({manifest}))
+    .pipe(dest('dist'));
 };
 
 export const styles = () => src('dist/styles/styles.css')
@@ -107,9 +118,15 @@ export const html = () => src('dist/**/*.html')
 
 export const clean = () => del('dist/');
 
+export const rewriteSeria = series(
+  // rewrite.bind(this, {folder: '', fileName: 'index', ext: 'html'})
+  rewrite.bind(this, {folder: 'styles', fileName: 'styles-*', ext: 'css'})
+  // rewrite.bind(this, {folder: 'scripts', fileName: 'scripts', ext: 'js'})
+);
+
 export const hashe = series(
   revision,
-  rewrite
+  rewriteSeria
 );
 
 export const build = series(parallel(styles, images, scripts), hashe);

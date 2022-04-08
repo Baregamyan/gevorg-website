@@ -1,0 +1,28 @@
+section.container.compare
+  h2.title.compare__title #{compare.title}
+  .swiper.compare__swiper
+    .swiper-wrapper
+      each slider in compare.list
+        - let {name, number, problem, done, result} = slider;
+        .compare__slider.flex-column.swiper-slide
+          h3.compare__subtitle #{name}
+          .row.d-flex.justify-content-between.compare__navigations
+            button.swiper-button-prev.compare__navigation.compare__navigation--prev(type="button" aria-label="Предыдущий слайд")
+            button.swiper-button-next.compare__navigation.compare__navigation--next(type="button" arial-label="Следующий слайд")
+          dl.d-flex.flex-column.compare__details-list
+            .d-flex.flex-column.compare__details-wrapper
+              dt.compare__term Проблема:
+              dd.compare__definition #{problem}
+            .d-flex.flex-column.compare__details-wrapper
+              dt.compare__term Выполнено:
+              dd.compare__definition 
+                ul.compare__done-list
+                  each task in done
+                    li.compare__done-item #{task}
+            .d-flex.flex-column.compare__details-wrapper
+              dt.compare__term Итог:
+              dd.compare__definition #{result}
+          .compare__picture.beer-slider(data-beer-label!="до&nbsp;лечения")
+            img.compare__image(src=`/images/compare/compare-${number}-before.png` alt=`${name} до лечения`)
+            .beer-reveal(data-beer-label!="после&nbsp;лечения")
+              img.compare__image(src=`/images/compare/compare-${number}-after.png` alt=`${name} после лечения`)

@@ -1,17 +1,24 @@
-section.container.treatments
+section#treatments.container.treatments
   .row
     .col
       h2.title.treatments__title #{treatments.title}
   .row.justify-content-between
     each treatment in treatments.list
+      - let {image, title, description} = treatment;
+      - let {name, width, height, alt} = image;
       article.col-12.col-lg-5.d-flex.treatments__treatment
         .row.flex-column
           .col.treatment__image-wrapper
-            img.treatments__image(src=`images/${treatment.image.name}.jpg` width=treatment.image.width height=treatment.image.height alt=treatment.image.alt)
+            img.treatments__image(
+              src=`images/${name}.jpg` 
+              width=width 
+              height=height 
+              alt=alt
+            )
           .col
             .treatments__description-wrapper
-              h2.treatments__title #{treatment.title}
-              p.treatments__description #{treatment.description}
+              h2.treatments__title #{title}
+              p.treatments__description #{description}
 
 
 

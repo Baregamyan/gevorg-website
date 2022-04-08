@@ -5,11 +5,23 @@
       "href": "#",
       "text": "Главная"
     }, {
-      "href": "#",
+      "href": "about",
       "text": "Обо мне"
     }, {
-      "href": "#",
-      "text": "Главная"
+      "href": "treatments",
+      "text": "Лечение"
+    }, {
+      "href": "regalia",
+      "text": "Сертификаты"
+    }, {
+      "href": "feedback",
+      "text": "Отзывы"
+    }, {
+      "href": "works",
+      "text": "Работы"
+    }, {
+      "href": "faq",
+      "text": "Вопрос-ответ"
     }
   ]
 }

@@ -1,5 +1,5 @@
 .about {
-  margin-bottom: 50px;
+  margin-bottom: var(--gap-bottom);
 }
 
 .about__text {

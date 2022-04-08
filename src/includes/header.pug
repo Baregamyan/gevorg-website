@@ -9,5 +9,6 @@ header.header
     nav.header__nav
       ul.header__nav-list.flex-column.justify-content-center
         each link in header.nav
+          - let {href, text} = link;
           li.header__nav-item.col
-            a.header__nav-link(href="#{link.href}") #{link.text}
+            a.header__nav-link(href=`#${href}`) #{text}
