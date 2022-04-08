@@ -3,12 +3,13 @@
 }
 
 .regalia__wrapper {
-  padding: 30px;
+  padding: 40px;
   background-color: var(--color-main);
   border-radius: 30px;
 }
 
 .regalia__item {
+  /* height: 100%; */
   cursor: pointer;
 }
 
@@ -27,9 +28,10 @@
 
 .regalia__image {
   width: 100%;
-  max-width: 300px;
   height: 100%;
+  max-height: 400px;
   margin-bottom: 15px;
+  object-fit: contain;
 }
 
 .regalia__text {
