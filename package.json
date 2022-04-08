@@ -9,6 +9,7 @@
     "stylelint": "stylelint \"src/styles/**/*.css\"",
     "eslint": "eslint src/**/*.js",
     "test": "npm run stylelint && npm run eslint && gulp html",
+    "deploy": "gh-pages -d dist",
     "ghDeploy": "npm run build && gh-pages -d dist",
     "build": "gulp clean && gulp sprite && eleventy && gulp build"
   },
